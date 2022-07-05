@@ -1,0 +1,47 @@
+body{
+    position: static;
+    margin: 0;
+    padding: 0;
+    background-image: url(pics/body_bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav{
+    position: fixed;
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+    padding: 0px;
+    height: min-content;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    background-image: linear-gradient(rgba(255,255,255,0.137), rgba(255, 255, 255, 0.137)), url(pics/header_bg.jpg);
+
+}
+
+nav ul{
+    opacity: 100%;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 120px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Parisienne', cursive;
+    
+
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0;
+    padding-left: 60px;
+    padding-top: 45px;
+    padding-right: 60px;
+    font-size: 30px;
+    text-shadow: 29px;
+
+}
+
