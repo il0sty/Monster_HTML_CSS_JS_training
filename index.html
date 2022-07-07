@@ -6,29 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <!-- Font Parisienne = font-family: 'Parisienne', cursive;-->
+    <!-- Font Jost = font-family: 'Jost', sans-serif;-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <!-- Font Oswald = font-family: 'Oswald', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <!-- Font Didact Gothic = font-family: 'Didact Gothic', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <!-- Font The Nautigal = font-family: 'The Nautigal', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
     <title>MONSTER</title>
 </head>
 <body >
     <header>
+        <img src="pics/LOGO.png" alt="Monster Logo" height="115">
         <nav>
-            <div id="bg_head">
-                <ul>
-                    <li>Story</li>
-                    <li>Characters</li>
-                    <img src="pics/LOGO.png" alt="Monster Logo" height="125">
-                    <li>Author</li>
-                    <li>World</li>
-                </ul>
-            </div>
+            <a class="hover-underline-animation">Story</a>
+            <a class="hover-underline-animation">Characters</a>
+            <a class="hover-underline-animation">Author</a>
+            <a class="hover-underline-animation">World</a>
         </nav>
     </header>
     <main>
-        <div>
-            
+        <div id="opening">
+            <video src="vid/monster_bg.mp4" loop autoplay muted></video>
+            <div id="video_overlay">
+                <h1 class="text-focus-in_normal">MONSTER</h1>
+                <p class="text-focus-in_delay">by: Naoki Urasawa</p>
+            </div>
+        </div>
+        <hr>
+        <div id="about">
+            <div id="about_head">
+                <h2>“Once upon a time, in a land far away, there lived a nameless monster...”</h2>
+            </div>
         </div>
     </main>
 </body>
